@@ -11,7 +11,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://yanppsilva.github.io/404-Not-Found-devChallenge-io/">
+    <a href="https://yanppsilva.github.io/404-Not-Found-devChallenge-io/" target="_blank">
       Demo
     </a>
     <span> | </span>
