@@ -32,11 +32,12 @@ header {
   align-items: center;
   display: flex;
   justify-content: space-between;
-  margin: 200px 120px 0 77px;
-  padding: 0 200px 0 200px;
+  margin: 130px 77px 0 77px;
+  padding: 0 150px 0 150px;
 }
 
 .container-image {
+  display: flex;
   height: 60vh;
 }
 
@@ -109,6 +110,7 @@ footer a {
 @media screen and (max-width: 1440px) {
   .header a {
     font-size: 1.5em;
+    font-weight: ;
   }
   
   .mainScreen {
@@ -125,14 +127,9 @@ footer a {
   .header a {
     margin: 40px 0 0 57px;
   }
-  
-  .container-image {
-    height: 100%;
-  }
 
   .container-image img {
     width: 45vw;
-    height: 100%;
   }
 
   .container-title {
@@ -161,6 +158,71 @@ footer a {
   }
 
   .footer {
-    padding: 275px 0 24px 0px;
+    padding: 0;
+    margin-top: auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header a {
+    font-size: 2.5em;
+  }
+  
+  .mainScreen {
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    margin-top: 150px;
+  }
+
+  .container-image img {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+  }
+
+  .container-title {
+    width: 550px;
+    font-size: 4.5em;
+  }
+
+  .description {
+    font-size: 1.5em;
+  }
+
+  .footer {
+    margin-top: auto;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  body {
+    padding: 5px 10px;
+  }
+  
+  .header {
+    margin: 0;
+  }
+
+  .header a {
+    margin: 0;
+    font-size: 1.5em;
+  }
+  
+  .mainScreen {
+    margin-top: 75px;
+  }
+  
+  .container-image {
+    height: auto;
+  }
+  
+  .container-title {
+    width: auto;
+    font-size: 3em;
+  }
+
+  .footer {
+    font-size: 14px;
   }
 }
