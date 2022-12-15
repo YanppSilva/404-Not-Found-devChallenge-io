@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@600;700&family=Space+Mono:wght@400;700&display=swap');
+
+:root {
+  --bg: #333333;
+  --font-color: #4F4F4F;
+  --footer: #BDBDBD;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Space Mono', monospace;
+}
+
+header {
+  margin: 40px 0 0 77px;
+}
+
+.header a {
+  color: var(--bg);
+  font-size: 2em;
+  font-family: 'Inconsolata', monospace;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.mainScreen {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 200px 120px 0 77px;
+  padding: 0 200px 0 200px;
+}
+
+.container-image {
+  height: 60vh;
+}
+
+.container-image img {
+  height: 100%;
+}
+
+.container-title {
+  width: 590px;
+  height: 190px;
+  font-size: 4em;
+  font-size: 4em;
+  font-weight: 700;
+}
+
+.container-description {
+  margin: 36px 0 64px 0;
+  width: 380px;
+}
+
+.description {
+  color: var(--font-color);
+  font-size: 1.5em;
+}
+
+.container-btn {
+  height: 68px;
+  width: 216px;
+  background-color: var(--bg);
+}
+
+.container-btn a {
+  position: absolute;
+  color: #FFFFFF;
+  cursor: pointer;
+  padding: 24px 43px 24px 43px;
+  font-size: .8em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.container-btn:hover {
+  background-color: transparent;
+  border: 2px solid var(--bg);
+}
+
+.container-btn a:hover {
+  color: var(--bg);
+  font-weight: 700;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  height: 16vh;
+}
+
+.footer {
+  color: var(--footer);
+  font-size: 1em;
+  padding: 145px 0 24px 0px;
+}
+
+footer a {
+  text-decoration: none;
+  color: var(--footer);
+}
+
+
+@media screen and (max-width: 1440px) {
+  .header a {
+    font-size: 1.5em;
+  }
+  
+  .mainScreen {
+    padding: 0;
+    margin: 90px 120px 0 77px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .header {
+    margin: 40px 0 0 0;
+  }
+  
+  .header a {
+    margin: 40px 0 0 57px;
+  }
+  
+  .container-image {
+    height: 100%;
+  }
+
+  .container-image img {
+    width: 45vw;
+    height: 100%;
+  }
+
+  .container-title {
+    width: 100%;
+    height: auto;
+    font-size: 3em;
+  }
+
+  .description {
+    font-size: 1.1em;
+  }
+
+  .container-btn {
+    height: 60px;
+    width: 200px;
+  }
+
+  .container-btn a {
+    padding: 20px 38px 20px 38px;
+  }
+
+  .mainScreen {
+    padding: 0;
+    margin: 90px 120px 0 57px;
+    gap: 30px
+  }
+
+  .footer {
+    padding: 275px 0 24px 0px;
+  }
+}
