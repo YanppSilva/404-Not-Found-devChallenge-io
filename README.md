@@ -34,8 +34,7 @@
 
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
-
+![screenShot](https://user-images.githubusercontent.com/93152439/207765720-62ba6753-3881-472c-8973-1cf8bd70740e.png)
 
 ### Built With
 
